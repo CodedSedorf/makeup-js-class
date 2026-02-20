@@ -24,8 +24,62 @@
 
 // x /= 5
 
-let y = 24;
-console.log(++y);
-console.log(--y);
+// let y = 24;
+// y+=15 //y = y + 15
+// console.log(y);
+
+//Data:
+
+// let num1 = "15";
+// let num2 = 15;
+// console.log(num1 === num2);
+
+//school admission
+// let student_age = parseFloat(prompt("Enter ypour age"));
+// if (student_age <= 10) {
+//     alert("You are to be in primary school by now")
+// }
+// else if(student_age > 10 && student_age <= 17){
+//     alert("You are to be in secondary school")
+// }
+// else if (student_age > 17 && student_age < 23){
+//     alert("You are to be in the University")
+// }
+// else{
+//     alert("You are out of school")
+// }
+
+// let name = "Hanan";
+// let password = "abc";
+// let userInput;
+// let userPassword;
+
+// for (let index = 0; index < 1; index++) {
+//     userInput = prompt("Enter your name");
+//     userPassword = prompt("enter password")
+//     if (userInput === name || userPassword === password) {
+//         console.log("Login is successfull");
+//         break
+        
+//     }
+//     else{
+//         console.log("Invalid login details");
+        
+//     }
+    
+// }
+
+let name = "Hanan";
+let age = 10;
+// console.log("Hello! My name is " + name + ". I am " + age + "years old.");
+console.log(`Hello! My name is ${name}. I am ${age} years old`);
+
+
+
+
+
+
+
+
 
 
