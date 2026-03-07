@@ -69,15 +69,36 @@
     
 // }
 
-let name = "Hanan";
-let age = 10;
-// console.log("Hello! My name is " + name + ". I am " + age + "years old.");
-console.log(`Hello! My name is ${name}. I am ${age} years old`);
+// let name = "Hanan";
+// let age = 10;
+// // console.log("Hello! My name is " + name + ". I am " + age + "years old.");
+// console.log(`Hello! My name is ${name}. I am ${age} years old`);
 
 
 
+// function display(result){
+//     console.log(result);
+    
+// }
+
+// function add(num1, num2, myCallback){
+//     let addIt = num1 + num2;
+//     myCallback(addIt)
+// }
+// add(50, 16, display);
 
 
+// let div = document.createElement("h1");
+// div.innerHTML = "Hello Sedorf";
+// document.body.appendChild(div)
+
+function msg(){
+    const userName = document.getElementById("greet").value;
+    const message = document.createElement("h1");
+    message.innerHTML = (`Hello ${userName}, yyou are welcome to TechTutors' class`);
+    document.body.appendChild(message)
+    userName = ""
+}
 
 
 
