@@ -97,7 +97,7 @@ function msg(){
     const message = document.createElement("h1");
     message.innerHTML = (`Hello ${userName}, yyou are welcome to TechTutors' class`);
     document.body.appendChild(message)
-    userName = ""
+    
 }
 
 
