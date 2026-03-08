@@ -92,13 +92,15 @@
 // div.innerHTML = "Hello Sedorf";
 // document.body.appendChild(div)
 
-function msg(){
-    const userName = document.getElementById("greet").value;
-    const message = document.createElement("h1");
-    message.innerHTML = (`Hello ${userName}, yyou are welcome to TechTutors' class`);
-    document.body.appendChild(message)
-    
-}
+
+let age = parseFloat(prompt("Enter your age"));
+
+
+
+
+let me = age > 19 && age < 50  ? "Hello, you are a youth" : "Hello you are an adult";
+console.log(me);
+
 
 
 
